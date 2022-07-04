@@ -3,7 +3,7 @@
     "document_id": "kqk6pydpHkrX_WW9JqMt",
     "original_document_id": "kqk6pydpHkrX_WW9JqMt",
     "version": "29",
-    "lastChanged": "1656919001097",
+    "lastChanged": "1656956129946",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -48,10 +48,6 @@
                     ],
                     [
                         "Materials",
-                        "Custom Crop Controller"
-                    ],
-                    [
-                        "Materials",
                         "Custom Crop Texture"
                     ],
                     [
@@ -62,15 +58,36 @@
                         "Script"
                     ],
                     [
+                        "Scripts",
+                        "Behavior"
+                    ],
+                    [
+                        "Scripts",
+                        "Custom Crop Controller"
+                    ],
+                    [
+                        "Scripts",
+                        "MLComponent"
+                    ],
+                    [
+                        "Textures",
+                        "Custom Crop Texture"
+                    ],
+                    [
                         "Textures",
                         "White"
+                    ],
+                    [
+                        "Unlit"
                     ]
                 ]
             ]
         },
         "SceneTreeUiComponent": {
             "collapsedList": [
-                ""
+                [
+                    "1656952382530907:101308"
+                ]
             ],
             "selectionSetList": ""
         },
@@ -110,7 +127,8 @@
         "InspectorUiComponent": {
             "collapsedList": [
                 [
-                    "1656830450256619:8404"
+                    "1656830450256619:8404",
+                    "1656952458384861:112282"
                 ],
                 ""
             ]
@@ -122,7 +140,7 @@
             "mapPinPoints": ""
         },
         "Material::UiComponent": {
-            "active_graph_asset": "-1:-1"
+            "active_graph_asset": "1656955926826043:4684"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
@@ -207,17 +225,97 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "18",
-                    "uid": "1656832749331309:128058",
-                    "name": "Files\/File15.js",
+                    "resId": "19",
+                    "uid": "1656918985385993:5837",
+                    "name": "Files\/File16.dnn",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
                 },
                 {
-                    "resId": "19",
-                    "uid": "1656918985385993:5837",
-                    "name": "Files\/File16.dnn",
+                    "resId": "22",
+                    "uid": "1656921582977270:17912",
+                    "name": "Files\/File25.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "24",
+                    "uid": "1656951561165018:2105",
+                    "name": "Files\/File29.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "25",
+                    "uid": "1656951561170696:2112",
+                    "name": "Files\/File30.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "27",
+                    "uid": "1656952751438289:2318",
+                    "name": "sceneObject_0",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "28",
+                    "uid": "1656952751614621:2420",
+                    "name": "Files\/File35",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "29",
+                    "uid": "1656952752002050:2513",
+                    "name": "Files\/File37.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "30",
+                    "uid": "1656952752007433:2520",
+                    "name": "Files\/File38.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "31",
+                    "uid": "1656955926628783:4643",
+                    "name": "Files\/File40.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "32",
+                    "uid": "1656955926826043:4684",
+                    "name": "Files\/File41",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "33",
+                    "uid": "1656955927056576:4755",
+                    "name": "Screen Crop Texture",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "34",
+                    "uid": "1656956128653889:30238",
+                    "name": "Files\/File44.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -324,7 +422,10 @@
                 "6": "1656830450240048:8249",
                 "7": "1656830614881297:34226",
                 "8": "1656830614942600:34382",
-                "9": "1656831319107366:20965"
+                "9": "1656831319107366:20965",
+                "10": "1656952382530907:101308",
+                "11": "1656952428977684:107457",
+                "12": "1656952476158543:115134"
             }
         },
         "LayerComponent": {
@@ -388,10 +489,6 @@
                     "v": "Files\/File14.lsmat"
                 },
                 {
-                    "k": "15",
-                    "v": "Files\/File15.js"
-                },
-                {
                     "k": "16",
                     "v": "Files\/File16.dnn"
                 },
@@ -400,8 +497,60 @@
                     "v": "Files\/File17.onnx"
                 },
                 {
-                    "k": "18",
-                    "v": "Files\/File18.dnn"
+                    "k": "25",
+                    "v": "Files\/File25.js"
+                },
+                {
+                    "k": "29",
+                    "v": "Files\/File29.js"
+                },
+                {
+                    "k": "30",
+                    "v": "Files\/File30.js"
+                },
+                {
+                    "k": "34",
+                    "v": "Files\/File34.oprfb"
+                },
+                {
+                    "k": "35",
+                    "v": "Files\/File35"
+                },
+                {
+                    "k": "36",
+                    "v": "Files\/File36.lsmat"
+                },
+                {
+                    "k": "37",
+                    "v": "Files\/File37.js"
+                },
+                {
+                    "k": "38",
+                    "v": "Files\/File38.js"
+                },
+                {
+                    "k": "39",
+                    "v": "Files\/File39.oprfb"
+                },
+                {
+                    "k": "40",
+                    "v": "Files\/File40.js"
+                },
+                {
+                    "k": "41",
+                    "v": "Files\/File41"
+                },
+                {
+                    "k": "42",
+                    "v": "Files\/File42.lsmat"
+                },
+                {
+                    "k": "43",
+                    "v": "Files\/File43.dnn"
+                },
+                {
+                    "k": "44",
+                    "v": "Files\/File44.js"
                 }
             ]
         },
@@ -423,7 +572,7 @@
                     },
                     {
                         "k": "968",
-                        "v": "Materials\/Custom Crop Controller.js"
+                        "v": "Scripts\/Custom Crop Controller.js"
                     },
                     {
                         "k": "7842",
@@ -442,12 +591,60 @@
                         "v": "Materials\/Unlit.lsmat"
                     },
                     {
-                        "k": "7847",
-                        "v": "Script.js"
-                    },
-                    {
                         "k": "7848",
                         "v": "Materials\/ASLModel.onnx"
+                    },
+                    {
+                        "k": "7851",
+                        "v": "Scripts\/Behavior.js"
+                    },
+                    {
+                        "k": "7853",
+                        "v": "Scripts"
+                    },
+                    {
+                        "k": "7854",
+                        "v": "Scripts\/ASLlabels.js"
+                    },
+                    {
+                        "k": "7855",
+                        "v": "Scripts\/MLComponentController.js"
+                    },
+                    {
+                        "k": "7857",
+                        "v": "Progress Bar Panel"
+                    },
+                    {
+                        "k": "7858",
+                        "v": "Progress Bar Panel\/Progress Bar Prefab.oprfb"
+                    },
+                    {
+                        "k": "7859",
+                        "v": "Progress Bar Panel\/ProgressBarMaterial.lsmat"
+                    },
+                    {
+                        "k": "7860",
+                        "v": "Progress Bar Panel\/Scripts"
+                    },
+                    {
+                        "k": "7861",
+                        "v": "Progress Bar Panel\/Scripts\/ProgressBar.js"
+                    },
+                    {
+                        "k": "7862",
+                        "v": "Progress Bar Panel\/Scripts\/ProgressBarPanel.js"
+                    },
+                    {
+                        "k": "7863",
+                        "v": "Scripts\/MLComponent.js"
+                    },
+                    {
+                        "k": "7864",
+                        "v": "Unlit.lsmat"
+                    },
+                    {
+                        "k": "7865",
+                        "v": "Script.js"
                     }
                 ],
                 "hashes": [
@@ -477,7 +674,7 @@
                     },
                     {
                         "k": "7846",
-                        "v": "2a9aa79d565d86a11140a93ed962a27a"
+                        "v": "162b342252d3b4bf82094f9fc69fe43f"
                     },
                     {
                         "k": "7847",
@@ -485,15 +682,79 @@
                     },
                     {
                         "k": "7848",
+                        "v": "c1d12ca8a4715969e60a563386a106b7"
+                    },
+                    {
+                        "k": "7849",
                         "v": "ecc3247be059866c3911e2795afccf83"
+                    },
+                    {
+                        "k": "7850",
+                        "v": "ecc3247be059866c3911e2795afccf83"
+                    },
+                    {
+                        "k": "7851",
+                        "v": "324d936bf1b61fe7a9ad8efc0bd63807"
+                    },
+                    {
+                        "k": "7852",
+                        "v": "ecc3247be059866c3911e2795afccf83"
+                    },
+                    {
+                        "k": "7854",
+                        "v": "7f5d5eece787e7ebcdccd5aec6f5fff9"
+                    },
+                    {
+                        "k": "7855",
+                        "v": "a566f9d04ca4272ec46c6d009718d947"
+                    },
+                    {
+                        "k": "7856",
+                        "v": "ecc3247be059866c3911e2795afccf83"
+                    },
+                    {
+                        "k": "7857",
+                        "v": "862e3025a0c19e468f82b6e7fa4612ea"
+                    },
+                    {
+                        "k": "7858",
+                        "v": "15f58563acded90fe53ce408e086b2ec"
+                    },
+                    {
+                        "k": "7859",
+                        "v": "57fa9ee0931b0bf1d554277de328744f"
+                    },
+                    {
+                        "k": "7860",
+                        "v": "8ecfa2a3c1a734bc865270ceee081821"
+                    },
+                    {
+                        "k": "7861",
+                        "v": "2ff0ed7d7ddd45e5189eba5889fd3b95"
+                    },
+                    {
+                        "k": "7862",
+                        "v": "c7fc7e1daf2da9e0e0cfa9c94fc208ab"
+                    },
+                    {
+                        "k": "7863",
+                        "v": "5c96e8a8714e354f03b3cde7820cabed"
+                    },
+                    {
+                        "k": "7864",
+                        "v": "ff871fd4d3c3bb13cf71678f6f58424e"
+                    },
+                    {
+                        "k": "7865",
+                        "v": "59361291686fd7cebf3981836238abbb"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-07-03T00:20:44",
+                        "lastModified": "2022-07-04T10:35:28",
                         "name": "Public",
-                        "hash": "96a52d0e0c81211575e89f050e04581d",
+                        "hash": "542e15b1deff9f67c598752b5807cd52",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -511,22 +772,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-04T00:15:45",
+                                "lastModified": "2022-07-04T10:34:40",
                                 "name": "Materials",
-                                "hash": "75e02f63f2eadb77cccdd2e433102877",
+                                "hash": "9265a7f4ce304887ed20e99031562c26",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-04T00:15:45",
+                                        "lastModified": "2022-07-04T10:31:34",
                                         "name": "ASLModel.onnx",
-                                        "hash": "ecc3247be059866c3911e2795afccf83",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-03T00:00:28",
-                                        "name": "Custom Crop Controller.js",
-                                        "hash": "c7f28e1f44a1b94e67942360723973fd",
+                                        "hash": "c1d12ca8a4715969e60a563386a106b7",
                                         "children": ""
                                     },
                                     {
@@ -538,10 +792,68 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-03T00:19:09",
+                                        "lastModified": "2022-07-04T10:34:40",
                                         "name": "Unlit.lsmat",
-                                        "hash": "80951ff0ad0dceb2b3f045c2b153e886",
+                                        "hash": "3e7d36e94df6d060dd725090f4ebab85",
                                         "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-07-04T10:34:40",
+                                "name": "Progress Bar Panel",
+                                "hash": "f6c17fbaf285e6e42e407143e09ad721",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T01:10:44",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T09:39:11",
+                                        "name": "Progress Bar Prefab.oprfb",
+                                        "hash": "15f58563acded90fe53ce408e086b2ec",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T10:34:40",
+                                        "name": "ProgressBarMaterial.lsmat",
+                                        "hash": "d0bd6e7fce94c370b43d131da863e74b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-04T09:38:25",
+                                        "name": "Scripts",
+                                        "hash": "c7becde7193c35e57db7657acd608945",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T01:10:44",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T01:10:44",
+                                                "name": "ProgressBar.js",
+                                                "hash": "2ff0ed7d7ddd45e5189eba5889fd3b95",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T01:10:44",
+                                                "name": "ProgressBarPanel.js",
+                                                "hash": "c7fc7e1daf2da9e0e0cfa9c94fc208ab",
+                                                "children": ""
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -551,6 +863,56 @@
                                 "name": "Script.js",
                                 "hash": "59361291686fd7cebf3981836238abbb",
                                 "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-07-04T09:50:29",
+                                "name": "Scripts",
+                                "hash": "24d528561b3ea0b4c2f723481896c7f3",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T09:24:44",
+                                        "name": "ASLlabels.js",
+                                        "hash": "7f5d5eece787e7ebcdccd5aec6f5fff9",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T00:59:42",
+                                        "name": "Behavior.js",
+                                        "hash": "324d936bf1b61fe7a9ad8efc0bd63807",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T01:07:57",
+                                        "name": "Custom Crop Controller.js",
+                                        "hash": "c7f28e1f44a1b94e67942360723973fd",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T09:14:33",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T09:50:28",
+                                        "name": "MLComponent.js",
+                                        "hash": "5c96e8a8714e354f03b3cde7820cabed",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T01:10:44",
+                                        "name": "MLComponentController.js",
+                                        "hash": "a566f9d04ca4272ec46c6d009718d947",
+                                        "children": ""
+                                    }
+                                ]
                             },
                             {
                                 "isFolder": "true",
@@ -573,6 +935,13 @@
                                         "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-04T10:34:40",
+                                "name": "Unlit.lsmat",
+                                "hash": "ac1762f984e816015a55f0d60744af6c",
+                                "children": ""
                             }
                         ]
                     }
@@ -708,6 +1077,20 @@
                                 "additional": {
                                     "originHash": "0c8dcfed2f50bb81ac5276a14967c005"
                                 }
+                            },
+                            {
+                                "name": "Custom Crop Texture",
+                                "type": "1",
+                                "subtype": "18",
+                                "resourceId": "33",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656955927056576:4755",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     },
@@ -740,20 +1123,6 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Custom Crop Controller",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "14",
-                                "dependency": "0",
-                                "hidden": "false",
-                                "uid": "1656830626745182:37381",
-                                "fileId": "8",
-                                "originalId": "18446744073709551615",
-                                "publicId": "968",
-                                "source": "C:\/Users\/aaaab\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioaeoOHjnbrVON\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                "additional": ""
-                            },
-                            {
                                 "name": "Custom Crop Texture",
                                 "type": "1",
                                 "subtype": "18",
@@ -783,9 +1152,13 @@
                                     "normalization_data": {
                                         "input_1": {
                                             "scale": [
+                                                "1",
+                                                "1",
                                                 "1"
                                             ],
                                             "bias": [
+                                                "0",
+                                                "0",
                                                 "0"
                                             ]
                                         },
@@ -799,32 +1172,6 @@
                                         }
                                     },
                                     "compatibility_data": [
-                                        {
-                                            "layerName": "StatefulPartitionedCall\/sequential\/conv2d\/BiasAdd__6:0",
-                                            "layerType": "permute",
-                                            "compatibilityInfos": [
-                                                {
-                                                    "type": "0",
-                                                    "isCompatible": "true",
-                                                    "info": ""
-                                                },
-                                                {
-                                                    "type": "1",
-                                                    "isCompatible": "true",
-                                                    "info": ""
-                                                },
-                                                {
-                                                    "type": "2",
-                                                    "isCompatible": "true",
-                                                    "info": ""
-                                                },
-                                                {
-                                                    "type": "3",
-                                                    "isCompatible": "false",
-                                                    "info": "The layer type is not supported by backend"
-                                                }
-                                            ]
-                                        },
                                         {
                                             "layerName": "StatefulPartitionedCall\/sequential\/conv2d\/BiasAdd:0",
                                             "layerType": "conv",
@@ -878,6 +1225,32 @@
                                             ]
                                         },
                                         {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization\/FusedBatchNormV3__6:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
+                                                }
+                                            ]
+                                        },
+                                        {
                                             "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization\/FusedBatchNormV3:0",
                                             "layerType": "batchnorm",
                                             "compatibilityInfos": [
@@ -900,6 +1273,32 @@
                                                     "type": "3",
                                                     "isCompatible": "true",
                                                     "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization\/FusedBatchNormV3__8:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
                                                 }
                                             ]
                                         },
@@ -982,6 +1381,32 @@
                                             ]
                                         },
                                         {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_1\/FusedBatchNormV3__10:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
+                                                }
+                                            ]
+                                        },
+                                        {
                                             "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_1\/FusedBatchNormV3:0",
                                             "layerType": "batchnorm",
                                             "compatibilityInfos": [
@@ -1004,6 +1429,32 @@
                                                     "type": "3",
                                                     "isCompatible": "true",
                                                     "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_1\/FusedBatchNormV3__12:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
                                                 }
                                             ]
                                         },
@@ -1086,6 +1537,32 @@
                                             ]
                                         },
                                         {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_2\/FusedBatchNormV3__14:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
+                                                }
+                                            ]
+                                        },
+                                        {
                                             "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_2\/FusedBatchNormV3:0",
                                             "layerType": "batchnorm",
                                             "compatibilityInfos": [
@@ -1108,6 +1585,32 @@
                                                     "type": "3",
                                                     "isCompatible": "true",
                                                     "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_2\/FusedBatchNormV3__16:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
                                                 }
                                             ]
                                         },
@@ -1190,6 +1693,32 @@
                                             ]
                                         },
                                         {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_3\/FusedBatchNormV3__18:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
+                                                }
+                                            ]
+                                        },
+                                        {
                                             "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_3\/FusedBatchNormV3:0",
                                             "layerType": "batchnorm",
                                             "compatibilityInfos": [
@@ -1212,6 +1741,32 @@
                                                     "type": "3",
                                                     "isCompatible": "true",
                                                     "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_3\/FusedBatchNormV3__20:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
                                                 }
                                             ]
                                         },
@@ -1242,7 +1797,7 @@
                                             ]
                                         },
                                         {
-                                            "layerName": "StatefulPartitionedCall\/sequential\/max_pooling2d_3\/MaxPool__52:0",
+                                            "layerName": "StatefulPartitionedCall\/sequential\/flatten\/transpose:0",
                                             "layerType": "permute",
                                             "compatibilityInfos": [
                                                 {
@@ -1637,17 +2192,205 @@
                         ]
                     },
                     {
+                        "name": "Scripts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7853",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Custom Crop Controller",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "14",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656830626745182:37381",
+                                "fileId": "8",
+                                "originalId": "18446744073709551615",
+                                "publicId": "968",
+                                "source": "C:\/Users\/aaaab\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioaeoOHjnbrVON\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Behavior",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "22",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656921582977270:17912",
+                                "fileId": "25",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7851",
+                                "source": "C:\/Users\/aaaab\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioVIfTivOwOPuz\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "ASLlabels",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "24",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656951561165018:2105",
+                                "fileId": "29",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7854",
+                                "source": "E:\/SnapAr\/ASL\/Public\/Scripts\/ASLlabels.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "MLComponentController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "25",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656951561170696:2112",
+                                "fileId": "30",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7855",
+                                "source": "E:\/SnapAr\/ASL\/Public\/Scripts\/MLComponentController.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "MLComponent",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "31",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656955926628783:4643",
+                                "fileId": "40",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7863",
+                                "source": "E:\/SnapAr\/ASL\/Public\/Scripts\/MLComponent.js",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Progress Bar Panel",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7857",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Progress Bar Prefab",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "27",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656952751438289:2318",
+                                "fileId": "34",
+                                "originalId": "39",
+                                "publicId": "7858",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "ProgressBarMaterial",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "28",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656952751614621:2420",
+                                "fileId": "35",
+                                "originalId": "36",
+                                "publicId": "7859",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Scripts",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7860",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "ProgressBar",
+                                        "type": "4",
+                                        "subtype": "0",
+                                        "resourceId": "29",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1656952752002050:2513",
+                                        "fileId": "37",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "7861",
+                                        "source": "E:\/SnapAr\/ASL\/Public\/Progress Bar Panel\/Scripts\/ProgressBar.js",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "ProgressBarPanel",
+                                        "type": "4",
+                                        "subtype": "0",
+                                        "resourceId": "30",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1656952752007433:2520",
+                                        "fileId": "38",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "7862",
+                                        "source": "E:\/SnapAr\/ASL\/Public\/Progress Bar Panel\/Scripts\/ProgressBarPanel.js",
+                                        "additional": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Unlit",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "32",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1656955926826043:4684",
+                        "fileId": "41",
+                        "originalId": "42",
+                        "publicId": "7864",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
                         "name": "Script",
                         "type": "4",
                         "subtype": "0",
-                        "resourceId": "18",
+                        "resourceId": "34",
                         "dependency": "0",
                         "hidden": "false",
-                        "uid": "1656832749331309:128058",
-                        "fileId": "15",
+                        "uid": "1656956128653889:30238",
+                        "fileId": "44",
                         "originalId": "18446744073709551615",
-                        "publicId": "7847",
-                        "source": "C:\/Users\/aaaab\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioGAvprSMxxJWx\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "publicId": "7865",
+                        "source": "C:\/Users\/aaaab\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioEaeCGOWPAsoz\/\/system\/\/emergencyFiles\/emergencyJs.js",
                         "additional": ""
                     }
                 ]
@@ -1655,14 +2398,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1656918985385993:5837",
-                        "path_list": [
-                            "Materials",
-                            "ASLModel"
-                        ]
-                    }
+                "objects": [
+                    "1656952382530907:101308"
                 ]
             }
         },
@@ -1710,14 +2447,14 @@
                     "k": "1656918985385993:5837",
                     "v": {
                         "infos": {
-                            "originalSize": "3052971",
-                            "compressedSize": "3052971",
+                            "originalSize": "3046126",
+                            "compressedSize": "3046126",
                             "extension": "dnn",
                             "settings": {
                                 "isCompressed": "false"
                             }
                         },
-                        "uncompressed_file": "18",
+                        "uncompressed_file": "43",
                         "compressed_files": ""
                     }
                 }
