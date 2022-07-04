@@ -3,7 +3,7 @@
     "document_id": "kqk6pydpHkrX_WW9JqMt",
     "original_document_id": "kqk6pydpHkrX_WW9JqMt",
     "version": "29",
-    "lastChanged": "1656832750487",
+    "lastChanged": "1656919001097",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -41,6 +41,10 @@
                     [
                         "Echopark",
                         "Specular"
+                    ],
+                    [
+                        "Materials",
+                        "ASLModel"
                     ],
                     [
                         "Materials",
@@ -206,6 +210,14 @@
                     "resId": "18",
                     "uid": "1656832749331309:128058",
                     "name": "Files\/File15.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "19",
+                    "uid": "1656918985385993:5837",
+                    "name": "Files\/File16.dnn",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -378,6 +390,18 @@
                 {
                     "k": "15",
                     "v": "Files\/File15.js"
+                },
+                {
+                    "k": "16",
+                    "v": "Files\/File16.dnn"
+                },
+                {
+                    "k": "17",
+                    "v": "Files\/File17.onnx"
+                },
+                {
+                    "k": "18",
+                    "v": "Files\/File18.dnn"
                 }
             ]
         },
@@ -420,6 +444,10 @@
                     {
                         "k": "7847",
                         "v": "Script.js"
+                    },
+                    {
+                        "k": "7848",
+                        "v": "Materials\/ASLModel.onnx"
                     }
                 ],
                 "hashes": [
@@ -449,19 +477,23 @@
                     },
                     {
                         "k": "7846",
-                        "v": "80951ff0ad0dceb2b3f045c2b153e886"
+                        "v": "2a9aa79d565d86a11140a93ed962a27a"
                     },
                     {
                         "k": "7847",
                         "v": "59361291686fd7cebf3981836238abbb"
+                    },
+                    {
+                        "k": "7848",
+                        "v": "ecc3247be059866c3911e2795afccf83"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-07-03T00:19:09",
+                        "lastModified": "2022-07-03T00:20:44",
                         "name": "Public",
-                        "hash": "eb0781ccae5bc822be1d14124365d0e9",
+                        "hash": "96a52d0e0c81211575e89f050e04581d",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -479,10 +511,17 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-03T00:18:32",
+                                "lastModified": "2022-07-04T00:15:45",
                                 "name": "Materials",
-                                "hash": "8844bb520a43036c21f91bab6e417f28",
+                                "hash": "75e02f63f2eadb77cccdd2e433102877",
                                 "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T00:15:45",
+                                        "name": "ASLModel.onnx",
+                                        "hash": "ecc3247be059866c3911e2795afccf83",
+                                        "children": ""
+                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2022-07-03T00:00:28",
@@ -499,9 +538,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-03T00:18:30",
+                                        "lastModified": "2022-07-03T00:19:09",
                                         "name": "Unlit.lsmat",
-                                        "hash": "8f3c8baa65e38ce48552c5d980b37069",
+                                        "hash": "80951ff0ad0dceb2b3f045c2b153e886",
                                         "children": ""
                                     }
                                 ]
@@ -515,7 +554,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-03T00:10:17",
+                                "lastModified": "2022-07-03T00:20:44",
                                 "name": "Textures",
                                 "hash": "6507c3cb5745a68eb0fa565cf851c447",
                                 "children": [
@@ -727,6 +766,873 @@
                                 "publicId": "18446744073709551615",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "ASLModel",
+                                "type": "22",
+                                "subtype": "0",
+                                "resourceId": "19",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1656918985385993:5837",
+                                "fileId": "16",
+                                "originalId": "17",
+                                "publicId": "7848",
+                                "source": "E:\/SnapAr\/ASL\/Public\/Materials\/ASLModel.onnx",
+                                "additional": {
+                                    "normalization_data": {
+                                        "input_1": {
+                                            "scale": [
+                                                "1"
+                                            ],
+                                            "bias": [
+                                                "0"
+                                            ]
+                                        },
+                                        "dense_1": {
+                                            "scale": [
+                                                "1"
+                                            ],
+                                            "bias": [
+                                                "0"
+                                            ]
+                                        }
+                                    },
+                                    "compatibility_data": [
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/conv2d\/BiasAdd__6:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/conv2d\/BiasAdd:0",
+                                            "layerType": "conv",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/conv2d\/Relu:0",
+                                            "layerType": "relu",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization\/FusedBatchNormV3:0",
+                                            "layerType": "batchnorm",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/max_pooling2d\/MaxPool:0",
+                                            "layerType": "pool",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/conv2d_1\/BiasAdd:0",
+                                            "layerType": "conv",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/conv2d_1\/Relu:0",
+                                            "layerType": "relu",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_1\/FusedBatchNormV3:0",
+                                            "layerType": "batchnorm",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/max_pooling2d_1\/MaxPool:0",
+                                            "layerType": "pool",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/conv2d_2\/BiasAdd:0",
+                                            "layerType": "conv",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/conv2d_2\/Relu:0",
+                                            "layerType": "relu",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_2\/FusedBatchNormV3:0",
+                                            "layerType": "batchnorm",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/max_pooling2d_2\/MaxPool:0",
+                                            "layerType": "pool",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/conv2d_3\/BiasAdd:0",
+                                            "layerType": "conv",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/conv2d_3\/Relu:0",
+                                            "layerType": "relu",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_3\/FusedBatchNormV3:0",
+                                            "layerType": "batchnorm",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/max_pooling2d_3\/MaxPool:0",
+                                            "layerType": "pool",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/max_pooling2d_3\/MaxPool__52:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/flatten\/Reshape:0_permute_f1nd1ngn3m0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/flatten\/Reshape:0_reshape_f1nd1ngn3m0",
+                                            "layerType": "reshape",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/flatten\/Reshape:0",
+                                            "layerType": "permute",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "false",
+                                                    "info": "The layer type is not supported by backend"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_4\/batchnorm\/mul_1:0",
+                                            "layerType": "linear",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_4\/batchnorm\/add_1:0",
+                                            "layerType": "linear",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/dense\/MatMul:0",
+                                            "layerType": "fullyconnected",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/dense\/BiasAdd:0",
+                                            "layerType": "linear",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/dense\/Sigmoid:0",
+                                            "layerType": "sigmoid",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/dense\/mul_1:0",
+                                            "layerType": "eltwise",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_5\/batchnorm\/mul_1:0",
+                                            "layerType": "linear",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/batch_normalization_5\/batchnorm\/add_1:0",
+                                            "layerType": "linear",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/dense_1\/MatMul:0",
+                                            "layerType": "fullyconnected",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "StatefulPartitionedCall\/sequential\/dense_1\/BiasAdd:0",
+                                            "layerType": "linear",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "layerName": "dense_1",
+                                            "layerType": "softmax",
+                                            "compatibilityInfos": [
+                                                {
+                                                    "type": "0",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "1",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "2",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                },
+                                                {
+                                                    "type": "3",
+                                                    "isCompatible": "true",
+                                                    "info": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     },
@@ -749,8 +1655,14 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1656830450240048:8249"
+                "resources": [
+                    {
+                        "uid": "1656918985385993:5837",
+                        "path_list": [
+                            "Materials",
+                            "ASLModel"
+                        ]
+                    }
                 ]
             }
         },
@@ -793,7 +1705,23 @@
             "importInfo": ""
         },
         "Compression::IController": {
-            "new_compression_info": ""
+            "new_compression_info": [
+                {
+                    "k": "1656918985385993:5837",
+                    "v": {
+                        "infos": {
+                            "originalSize": "3052971",
+                            "compressedSize": "3052971",
+                            "extension": "dnn",
+                            "settings": {
+                                "isCompressed": "false"
+                            }
+                        },
+                        "uncompressed_file": "18",
+                        "compressed_files": ""
+                    }
+                }
+            ]
         },
         "AssetLibController": {
             "itemUidToID": ""
