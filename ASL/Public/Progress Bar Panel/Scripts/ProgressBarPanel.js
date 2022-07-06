@@ -6,6 +6,7 @@
 
 var progressBars = [];
 var so = script.getSceneObject();
+var word = "";
 
 function setCount(k) {
     for (var i = 0; i < k; i++) {

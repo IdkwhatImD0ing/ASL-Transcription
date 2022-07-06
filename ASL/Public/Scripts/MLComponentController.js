@@ -23,7 +23,9 @@
 // @input bool printResultTo {"hint" : "Print array of detected classes to a text component"}
 // @input Component.Text classText {"showIf" : "printResultTo"}
 // @input string placeholderText = "Looking for flower..."  {"showIf" : "printResultTo"}
+// @input Component.Text wordText
 
+var word = "";
 
 var mlInput;
 var mlOutput;
@@ -110,6 +112,14 @@ function onRunningFinished() {
     if (result[0].score > script.threshold + eps) {
         curClass = result[0].index;
         if (prevClass != curClass) {
+            if(script.wordText){
+                word += topKLabels[0];
+                if(word.length > 5){
+                    word = word.slice(1, word.length);
+                }
+                script.wordText.text = word;  
+            }            
+            
             if (script.printResultTo && script.classText) {
                 script.classText.text = topKLabels[0];
             }
