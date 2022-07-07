@@ -3,7 +3,7 @@
     "document_id": "lGjPjGsiYFQ_3m-KQu3a",
     "original_document_id": "lGjPjGsiYFQ_3m-KQu3a",
     "version": "29",
-    "lastChanged": "1657147526614",
+    "lastChanged": "1657172553113",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -57,7 +57,8 @@
                         "Scripts",
                         "HandCrop"
                     ]
-                ]
+                ],
+                ""
             ]
         },
         "SceneTreeUiComponent": {
@@ -159,7 +160,7 @@
             "mapPinPoints": ""
         },
         "Material::UiComponent": {
-            "active_graph_asset": "1647896330626173:35992538"
+            "active_graph_asset": "-1:-1"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
@@ -1252,7 +1253,9 @@
                 "19": "1657141679472119:126522",
                 "20": "1657141679510761:126673",
                 "21": "1657141679532784:126836",
-                "22": "1657145482016718:50822"
+                "22": "1657145482016718:50822",
+                "23": "1657172400915768:156029",
+                "24": "1657172486021601:211101"
             }
         },
         "LayerComponent": {
@@ -3607,11 +3610,11 @@
                     },
                     {
                         "k": "26875",
-                        "v": "7581065e1b1eb8209ded0855bdb55747"
+                        "v": "943772a1ffd803ce33789dc287c86e36"
                     },
                     {
                         "k": "26876",
-                        "v": "a1a666adb764a2ea7692b5cfb6c085ef"
+                        "v": "28e77ff80e30a0963ebe3a39e8664878"
                     },
                     {
                         "k": "26877",
@@ -3843,7 +3846,7 @@
                     },
                     {
                         "k": "26938",
-                        "v": "1536a69803db46305920ea88e4255eaa"
+                        "v": "e4734b6395aab4ec25a1fa87ba4adcd4"
                     },
                     {
                         "k": "26939",
@@ -4071,7 +4074,7 @@
                     },
                     {
                         "k": "29139",
-                        "v": "afe6fa4f223cb0bbac13936eb2e58167"
+                        "v": "d4f685d3e1cae8b3496ddaf40ee0fd4a"
                     },
                     {
                         "k": "29140",
@@ -4199,7 +4202,7 @@
                         "isFolder": "true",
                         "lastModified": "2022-07-06T14:05:50",
                         "name": "Public",
-                        "hash": "0661e78812e314b901a79104131cae42",
+                        "hash": "7e9e5a9a6b7740bf443cd5f9aa3ce75d",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -4276,15 +4279,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-06T15:44:38",
+                                "lastModified": "2022-07-06T15:45:25",
                                 "name": "Materials",
-                                "hash": "4a773c636dbecad34c26206e9c093442",
+                                "hash": "6bae3f9944ce21be23e42bde7db0e2e8",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-06T15:44:37",
+                                        "lastModified": "2022-07-06T15:45:25",
                                         "name": "Button_Material [EDIT].lsmat",
-                                        "hash": "84600a32ad3d5faa67dc532ef8ab0b70",
+                                        "hash": "7581065e1b1eb8209ded0855bdb55747",
                                         "children": ""
                                     },
                                     {
@@ -4296,9 +4299,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-06T15:44:38",
+                                        "lastModified": "2022-07-06T15:45:25",
                                         "name": "Gauss Blur.lsmat",
-                                        "hash": "e003b1aed99d38948979cbaa229f4a4b",
+                                        "hash": "a1a666adb764a2ea7692b5cfb6c085ef",
                                         "children": ""
                                     }
                                 ]
@@ -4307,7 +4310,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-07-06T14:03:47",
                                 "name": "ML Hint",
-                                "hash": "fd9043633c773d36a6ba7c725fb18fe5",
+                                "hash": "a38011150149968265d3e039fdcb3c10",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4340,9 +4343,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-06T15:44:37",
+                                        "lastModified": "2022-07-06T15:45:25",
                                         "name": "Materials",
-                                        "hash": "500eee8f59bef84f1ba006f97e387536",
+                                        "hash": "2f58246a0b66299f27f6c15586d95be2",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -4353,9 +4356,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-06T15:44:37",
+                                                "lastModified": "2022-07-06T15:45:25",
                                                 "name": "hint_image_masked.lsmat",
-                                                "hash": "57175cd9f04b1849e4e6124ee47b178f",
+                                                "hash": "1536a69803db46305920ea88e4255eaa",
                                                 "children": ""
                                             }
                                         ]
@@ -4422,9 +4425,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-06T15:44:38",
+                                "lastModified": "2022-07-06T15:45:25",
                                 "name": "Progress Bar Panel",
-                                "hash": "2bdb8c51eb62bb04c5ba7bd6ebed26d8",
+                                "hash": "bdf850eeb540c9273ca99c3e3b30c1ba",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4442,16 +4445,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-06T15:44:38",
+                                        "lastModified": "2022-07-06T15:45:25",
                                         "name": "ProgressBarMaterial.lsmat",
-                                        "hash": "e6b9b5f65a71acf923dc9d57edb22fc8",
+                                        "hash": "afe6fa4f223cb0bbac13936eb2e58167",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-06T15:32:12",
+                                        "lastModified": "2022-07-06T15:45:24",
                                         "name": "Scripts",
-                                        "hash": "b78ae8315e1bc2574958fd0c79f9a7b1",
+                                        "hash": "aa664a2a24cd15cee28381a200280237",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -4469,9 +4472,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-06T15:32:12",
+                                                "lastModified": "2022-07-06T15:45:24",
                                                 "name": "ProgressBarPanel.js",
-                                                "hash": "321ff8af566dc1257f8a7f3149447a38",
+                                                "hash": "2e1ed14f7661548081f3ebb848a5f843",
                                                 "children": ""
                                             }
                                         ]
@@ -6555,7 +6558,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1657145482016718:50822"
+                    "1648167268041658:3452578"
                 ]
             }
         },
