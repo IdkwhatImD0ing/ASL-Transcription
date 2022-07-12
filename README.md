@@ -6,15 +6,17 @@ Inspiration came from one of my online friends who is deaf. He likes to create c
 I created this ASL transcriber to hopefully help him create content by allowing him to express his thoughts using American Sign Language.
 The lens would automatically convert the letters into text, letting him create content without worrying about writing captions for every single action.
 
+Apart from helping transcripe ASL in real time. This lens could also be used as a learning tool for ASL. Real time transciption allows the user to practice speed and accuracy without the need for an interpreter. 
+
 ## 💻What it does
 
-• Uses Machine Learning to classify various hand poses into American Sign Language
+• Uses Machine Learning to classify various hand motions into American Sign Language in real time.
 
 • Displays the text in augmented reality.
 
 • High Accuracy allows for more precise transcriptions.
 
-• Tapping Screen shows predictions of current hand on screen
+• Tapping Screen toggles live predictions on and off.
 
 Predicting the N letter:
 
@@ -86,9 +88,9 @@ Predicting the N letter:
 
 • Due to the small dataset used to train the model, some hand poses are not correctly classified. Would need a larger dataset to correct this issue.
 
-• Tapping the screen once shows predictions, but tapping screen multiple times would break the lens.
-
 • Some letters are very similar, where the model struggles. Examples include (A/S/E) (M/N/V)
+
+• Due to J and Z requiring movement, the model is not very accurate at classifying those letters.
 
 ## 🛣️ Future Plans
 
