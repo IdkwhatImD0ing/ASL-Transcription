@@ -116,7 +116,7 @@ function onRunningFinished() {
     if (result[0].score > script.threshold + eps) {
         curClass = result[0].index;
         delta = Date.now() - start;
-        if(delta > 1000 && prevClass == curClass){
+        if(delta > 500 && prevClass == curClass){
             start = Date.now()            
             if(script.wordText){
                 word += topKLabels[0];
