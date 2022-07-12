@@ -88,6 +88,8 @@ Predicting the N letter:
 
 • Tapping the screen once shows predictions, but tapping screen multiple times would break the lens.
 
+• Some letters are very similar, where the model struggles. Examples include (A/S/E) (M/N/V)
+
 ## 🛣️ Future Plans
 
 • Once a larger dataset becomes available, re-train model for more accurate real world performance
