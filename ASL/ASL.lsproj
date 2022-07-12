@@ -3,7 +3,7 @@
     "document_id": "lGjPjGsiYFQ_3m-KQu3a",
     "original_document_id": "lGjPjGsiYFQ_3m-KQu3a",
     "version": "29",
-    "lastChanged": "1657585309090",
+    "lastChanged": "1657594124359",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -47,6 +47,9 @@
                     [
                         "Materials",
                         "symbol"
+                    ],
+                    [
+                        "Script"
                     ],
                     [
                         "Scripts",
@@ -121,7 +124,7 @@
                 "front_preview_is_favorite": "false"
             },
             "preview_videos_project_config": {
-                "back_preview_id": "",
+                "back_preview_id": "local:E:\/Github\/SnapAr\/src\/videoplayback.mp4",
                 "back_preview_is_favorite": "false",
                 "front_preview_id": "bundle:Preview\/Videos\/Idle Person 1.webm",
                 "front_preview_is_favorite": "false"
@@ -926,6 +929,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "588",
+                    "uid": "1657587852125111:129013",
+                    "name": "Files\/File1321.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1200,7 +1211,8 @@
                 "23": "1657172400915768:156029",
                 "24": "1657172486021601:211101",
                 "25": "1657355295204621:638163",
-                "26": "1657355295233271:638319"
+                "26": "1657355295233271:638319",
+                "27": "1657593584213259:88882"
             }
         },
         "LayerComponent": {
@@ -1882,6 +1894,10 @@
                 {
                     "k": "1320",
                     "v": "Files\/File1320.dnn"
+                },
+                {
+                    "k": "1321",
+                    "v": "Files\/File1321.js"
                 }
             ]
         },
@@ -2032,6 +2048,10 @@
                     {
                         "k": "29200",
                         "v": "Classification Resources\/Models\/DoubleHand.tflite"
+                    },
+                    {
+                        "k": "29201",
+                        "v": "Script.js"
                     }
                 ],
                 "hashes": [
@@ -3705,7 +3725,7 @@
                     },
                     {
                         "k": "26938",
-                        "v": "c9dd4d0e50e55f844727ff57a1464542"
+                        "v": "58b1ba3151d4ac4676fdd0ee266fd0dc"
                     },
                     {
                         "k": "26939",
@@ -3933,7 +3953,7 @@
                     },
                     {
                         "k": "29139",
-                        "v": "acc8363fe4ea79fc9660c16ea7af9d1f"
+                        "v": "9eca40dfc0bb04a34234d75554120cec"
                     },
                     {
                         "k": "29140",
@@ -4102,14 +4122,18 @@
                     {
                         "k": "29200",
                         "v": "295e9502159e30ecd7262ce79d0f7285"
+                    },
+                    {
+                        "k": "29201",
+                        "v": "59361291686fd7cebf3981836238abbb"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-07-11T16:42:58",
+                        "lastModified": "2022-07-11T18:04:12",
                         "name": "Public",
-                        "hash": "e7d4e861fe0d9ebfba8e5199703a34cf",
+                        "hash": "9dab216ccd5cf32a7bd422d6c6cd8fa2",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -4203,7 +4227,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-07-06T14:03:47",
                                 "name": "ML Hint",
-                                "hash": "351196fed7a0fe58d561a76f748832fe",
+                                "hash": "f41e726a6bb0096b89635a2dde124f59",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4236,9 +4260,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-11T16:43:03",
+                                        "lastModified": "2022-07-11T19:44:45",
                                         "name": "Materials",
-                                        "hash": "1fca8c1893116aae7e0a1bb27b465245",
+                                        "hash": "9070c056a45bff1441e4d154d27b6ef4",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -4249,9 +4273,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-11T16:43:03",
+                                                "lastModified": "2022-07-11T19:44:45",
                                                 "name": "hint_image_masked.lsmat",
-                                                "hash": "352e1bbff7907b4ef58dbbe2eb30d8af",
+                                                "hash": "45110004a0843b05f8315828ccc3320d",
                                                 "children": ""
                                             }
                                         ]
@@ -4311,9 +4335,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-11T16:43:03",
+                                "lastModified": "2022-07-11T19:44:45",
                                 "name": "Progress Bar Panel",
-                                "hash": "c884d1b10010d7cd5b723951fe285ea3",
+                                "hash": "b86f933a7ec4c0817ecdfe5fa60a3e5a",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4331,9 +4355,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-11T16:43:03",
+                                        "lastModified": "2022-07-11T19:44:45",
                                         "name": "ProgressBarMaterial.lsmat",
-                                        "hash": "8c4cf723654777d5f39837eb9e2707f1",
+                                        "hash": "7931c1c4e7b81b4f69e772d607b00db3",
                                         "children": ""
                                     },
                                     {
@@ -4366,6 +4390,13 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-06-27T11:50:42",
+                                "name": "Script.js",
+                                "hash": "59361291686fd7cebf3981836238abbb",
+                                "children": ""
                             },
                             {
                                 "isFolder": "true",
@@ -7945,6 +7976,20 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Script",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "588",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1657587852125111:129013",
+                        "fileId": "1321",
+                        "originalId": "18446744073709551615",
+                        "publicId": "29201",
+                        "source": "C:\/Users\/aaaab\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudiouxlLOubSxTvq\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
                     }
                 ]
             }
@@ -7952,7 +7997,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1647900537506771:37925228"
+                    "1649719310168942:8112953"
                 ]
             }
         },
