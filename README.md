@@ -4,6 +4,8 @@
 
 [Youtube Link](https://www.youtube.com/watch?v=Nat5vQGsyxA&ab_channel=BillZhang)
 
+[Lens Link](https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=16642dd15be74124ac470c53a82d46fc&metadata=01)
+
 ## 💡Inspiration
 
 Inspiration came from one of my online friends who is deaf. He likes to create content on TikTok and YouTube but doesn't like the fact that he would need to write captions to convey his thoughts to his audience.
